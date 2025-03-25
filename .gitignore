@@ -1,0 +1,66 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Virtual Environment
+venv/
+ENV/
+env/
+*.env
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.bak
+*.swp
+*.swo
+*.pot
+*.pyc
+
+# Media
+media/
+
+# Static files
+static/
+
+# Django migrations
+*/migrations/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Environment variables files
+.env
+
+# Docker
+docker-compose.override.yml
+Dockerfile
+.dockerignore
+
+# Coverage reports
+.coverage
+coverage.xml
+*.cover
+
+# Pytest
+.cache
+
+# MySQL/PostgreSQL database dump files
+*.sql
+*.dump
